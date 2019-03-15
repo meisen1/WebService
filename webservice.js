@@ -84,7 +84,7 @@ app.get('/', (req,res)=>{
                     }
                 }
            */
-        
+            res.status(200).send(":(");
         }
 
         if(question == "Status"){
