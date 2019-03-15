@@ -64,9 +64,10 @@ app.get('/', (req,res)=>{
             var row4 = [array[3][0],array[3][1],array[3][2],array[3][3]];
             columns = [col1,col2,col3,col4];
             rows = [row1,row2,row3,row4];
+            
+            // maybe the map function could probably work here
 
             // Having some difficulty with converting my array of ['->--','-=--','>---','-<--']
-            // maybe the map function could probably work here
             // into a matrix of rows and columns but I think these are the rules:
 
 
