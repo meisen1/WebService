@@ -8,7 +8,7 @@ app.listen(PORT, ()=>{
 
 app.get('/', (req,res)=>{
     var question = req.query.q;
-     console.log(question);
+
         if(question == "Ping"){
         res.status(200).send("OK");
         }
